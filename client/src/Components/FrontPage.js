@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Row, Col, Collapse, Form, Input, Button, InputGroup } from 'reactstrap'
-import paypal from '../images/paypal.png'
+import bitcoin from '../images/bitcoin.jpg'
 import visa from '../images/visa.png'
 import mastercard from '../images/mastercard.jpg'
 import zerocontact from '../images/zerocontact.png'
@@ -486,7 +486,7 @@ class FrontPage extends Component {
                                 </div>
 
                                 <div className='text-center mt-3'>
-                                    <img className='payment-type' src={paypal} alt='paypal' />
+                                    <img className='payment-type mr-1' src={bitcoin} alt='bitcoin' />
                                     <img className='payment-type' src={mastercard} alt='mastercard' />
                                     <img className='payment-type' src={visa} alt='visa' />
                                 </div>
@@ -634,7 +634,7 @@ class FrontPage extends Component {
                             </div>
 
                             <div className='text-center mt-3'>
-                                <img className='payment-type' src={paypal} alt='paypal' />
+                                <img className='payment-type bitcoin mr-1 ' src={bitcoin} alt='bitcoin' />
                                 <img className='payment-type' src={mastercard} alt='mastercard' />
                                 <img className='payment-type' src={visa} alt='visa' />
                             </div>
