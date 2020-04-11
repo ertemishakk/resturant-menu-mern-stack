@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+html{
+  scroll-behavior: smooth !important;
+
+}
+body{
+  font-family: 'Baloo Chettan 2', cursive !important;
+}
+.navbar-brand{
+  font-family: 'Satisfy', cursive !important ;}
+@media(min-width: 1197px){
+  
+ body{
+   padding-right: 10% !important;
+   padding-left: 10% !important;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+ }
+}
+
+
+@media(min-width: 1197px){
+  .right-column{
+    right:10%
+  }
+ }
+ .overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: white; 
+  /* background-color: rgba(0,0,0, 0.9);  */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; 
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.closebtn {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+ .hidden-cart{
+    position: fixed;
+    right: 70px;
+    bottom:50px;
+    font-size: 40px;
+    border-radius: 50%;
+    z-index: 1;
+    cursor: pointer;
+ }
+.warning{
+  font-size: 14px;
+}
+.payment-type{
+  height: 30px;;
+}
+
+.navigation{
+  font-size: 19px;
+}
+
+.menu-heading{
+  cursor: pointer;
+}
+.menu-items{
+  cursor: pointer;
+}
+
+.menu-title{
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+
+.masthead {
+  position: relative;
+  background-image: url('./images/bg.jpg');
+  height: 30vh;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  min-height: 290px;
+}
+@media(min-width: 768px){
+  
+  .masthead{
+    margin:20px;
+    border-radius: 15px;
+    }
+}
+
+.motto{
+  position: absolute;
+  left: 0;
+  top: 40px;
+  padding-left: 40px;
+  padding-right: 50%;
+}
+
+
+.box{
+  box-shadow: 0 1px 2px #ccc;
+}
+
+.box:hover{
+  box-shadow: 0 5px 5px #ccc;
+}
+
+.cart-title{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cartList{
+  font-size: 15px;
+}
+
+.cart-total{
+  font-size: 17px !important;
+  font-weight: bold;
+}
+
+
+
+@media(max-width: 768px){
+  
+  .motto{
+    font-size: 30px !important;  
+    }
+   
+}
+@media(min-width: 768px){
+  .navbar{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+}

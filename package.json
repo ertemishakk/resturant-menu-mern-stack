@@ -1,0 +1,28 @@
+{
+  "name": "sercorp",
+  "version": "1.0.0",
+  "description": "infrastructure services",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "ishak ertem",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.5",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "stripe": "^8.39.1",
+    "uuid": "^7.0.3",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
