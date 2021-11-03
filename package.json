@@ -20,7 +20,7 @@
     "express": "^4.17.1",
     "stripe": "^8.39.1",
     "uuid": "^7.0.3",
-    "validator": "^12.2.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
